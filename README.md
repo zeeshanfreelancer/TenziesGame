@@ -1,12 +1,44 @@
-# React + Vite
+🎲 Tenzies Game – React Interactive Dice Game
+Tenzies is a fast-paced and addictive dice game built using React.js, offering an engaging UI and interactive gameplay experience. The objective is simple yet challenging: roll the dice until all values match — but there’s a twist! You can "hold" dice to lock in values as you try to match them all.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://zeeshanfreelancer.github.io/TenziesGame/
 
-Currently, two official plugins are available:
+🕹️ Gameplay Features
+🎯 Goal: Match all ten dice to the same value.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✋ Hold Mechanic: Click on individual dice to freeze them during rolls.
 
-## Expanding the ESLint configuration
+🔁 Roll Counter: Tracks number of rolls used to win.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⏱️ Timer: Live time tracking from the first roll to win.
+
+🎉 Win Animation: Celebrate your win with confetti effects.
+
+🔄 Restart Option: Instantly reset the game to play again.
+
+🚀 Built With
+React.js (Hooks-based architecture)
+
+CSS3 for layout and transitions
+
+nanoid for unique dice identifiers
+
+react-confetti for celebratory effects
+
+🧠 Core Logic Highlights
+Game State: React useState manages dice values, roll count, and held state.
+
+Timer: React useEffect hook with a setInterval tracks play time.
+
+Victory Condition: All dice are held and show the same value.
+
+Accessibility: ARIA attributes enhance usability for all players.
+
+📱 Responsive & Polished UI
+Interactive grid-based layout
+
+Smooth hover and active states for button feedback
+
+Mobile-friendly with centered vertical layout
+
+🔗 Try it out, challenge your speed and luck, and enjoy a visually fun experience—all built with clean, modular React code.
